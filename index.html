@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
         integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
@@ -43,7 +49,7 @@
             Hi, I am <strong>Leo Kabir Williams</strong>
         </h1>
         <p class="section__subtitle section__subtitle--intro">front-end developer</p>
-        <img src="img/dev-jane-01.jpg" alt="a picture of Leo Kabir Williams smiling">
+        <img src="img/dev-jane-01.jpg" alt="a picture of Leo Kabir Williams smiling" class="intro__img">
     </section>
 
     <!-- My Services -->
@@ -81,20 +87,23 @@
     <!-- About Me -->
     <section class="about-me" id="about">
         <h2 class="section__title section__title--about">Who I am</h2>
-        <p class="section__subtitle section__subtitle--about"></p>
+        <p class="section__subtitle section__subtitle--about">Software developer based out of Sydney</p>
 
         <div class="about-me__body">
-            <p></p>
-            <p></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ducimus quos nihil tempora, distinctio
+                sunt ipsum doloribus a corporis beatae ex saepe perspiciatis reiciendis vel, laborum minima illum
+                aperiam aut?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente numquam officiis eos quasi quam natus
+                rem, dolorum ea adipisci inventore! Deserunt quasi, quae est ad illum magnam eveniet ipsa magni.</p>
         </div>
 
-        <img src="img/dev-jane-02.jpg" alt="Jane leaning against a bus">
+        <img src="img/dev-jane-02.jpg" alt="Jane leaning against a bus" class="about-me__img">
     </section>
 
     <!-- My Work -->
     <section class="my-work" id="work">
-        <h2 class="section__title">My work</h2>
-        <p class="section__subtitle"></p>
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work.</p>
 
         <div class="portfolio">
 
@@ -151,14 +160,24 @@
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
         <a href="mailto:leokabirwilliams@gmail.com" class="footer__link">leokabirwilliams@gmail.com</a>
         <ul class="social-list">
-            <li class="social-list__item"><a href="https://codepen.io/Decavium" class="social-list__link"></a></li>
-            <li class="social-list__item"><a href="https://github.com/Decavium" class="social-list__link"></a></li>
-            <li class="social-list__item"><a href="https://www.linkedin.com/in/leo-kabir-williams/" class="social-list__link"></a></li>
-            <li class="social-list__item"><a href="" class="social-list__link"></a></li>
-        </ul>
+            <li class="social-list__item">
+                <a href="https://codepen.io/Decavium" class="social-list__link">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://github.com/Decavium" class="social-list__link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/leo-kabir-williams/" class="social-list__link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
     </footer>
 </body>
 
